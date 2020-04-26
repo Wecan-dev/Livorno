@@ -386,7 +386,7 @@ padding-right: 70px;
 .number {
 	position: absolute;
 	right: 0;
-	font-size: 12rem;
+	font-size: 13rem;
 	font-family: "Montserrat-Bold" !important;
 	opacity: .1;
 	top: -130px;
@@ -455,6 +455,11 @@ padding-right: 70px;
 }
 .container-planos-livorno{
 	padding: 50px 85px 0;
+}
+
+
+.main-contact_form .form-group{
+	       margin-bottom: 20px !important;
 }
 .container-mansory{
 	padding-left: 85px;
@@ -879,7 +884,7 @@ background-repeat: no-repeat!important;
 }
 
 .number-3 {
-	top: 35%;
+	top: 38%;
 	color: #e7e7e759;
 	opacity: inherit;
 	right: 6%;
