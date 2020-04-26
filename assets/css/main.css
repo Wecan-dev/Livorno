@@ -71,6 +71,11 @@ a:hover {
 	text-transform: uppercase;
 }
 
+.h3-ubica{
+	 font-weight: 500 !important;
+    padding-left: 30px;
+}
+
 .navbar-nav {
 	padding-left: 22px;
 }
@@ -449,7 +454,7 @@ padding-right: 70px;
 	padding: 40px 65px;
 }
 .container-planos-livorno{
-	padding: 50px 85px;
+	padding: 50px 85px 0;
 }
 .container-mansory{
 	padding-left: 85px;
