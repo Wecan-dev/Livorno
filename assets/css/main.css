@@ -523,6 +523,7 @@ padding-right: 70px;
 	display: grid;
 	/* grid-template-columns: 1fr 1fr; */
 	grid-template-columns: repeat(18, 1fr);
+	    grid-gap: 1px;
 	/* grid-template-rows: repeat(3, auto); */
 	/* grid-gap: 30px;*/
 }
@@ -572,7 +573,7 @@ padding-right: 70px;
 }
 
 .masonry-with-columns .main-galery-items__card {
-	height: 250px;
+	    height: 300px;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
@@ -907,14 +908,16 @@ background-repeat: no-repeat!important;
 /*  footer */
 footer {
 	background-image: url(../img/image_10.png);
+	padding-bottom: 15px;
 }
 
 .footer__grid {
-	gap: 50px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	padding: 50px;
-	color: #fff;
+	      display: grid;
+    grid-gap: 106px;
+    grid-template-columns: 2fr 2fr 1.5fr;
+    padding: 40px 7px;
+    color: #fff;
+    font-size: 21px;
 }
 
 .footer__grid--tem:nth-child(1) ul {
@@ -928,7 +931,7 @@ footer {
 .footer__grid--tem a{
 	color: #fff;
 	font-family: Montserrat;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
 }
 
@@ -946,11 +949,15 @@ footer {
 }
 .footer__grid--tem h3{
 	font-family: Montserrat;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     margin: 0;
-	margin-bottom: 5px;
+	margin-bottom: -7px
 	
+}
+
+.footer-pdf{
+	    padding: 15px 40px !important;
 }
 
 .footer__grid--tem div{
@@ -964,19 +971,20 @@ footer {
     text-transform: uppercase;
     font-size: 12px!important;
     padding: 10px;
-    border: solid 1px #ffffff;
+        border: solid 1px rgba(255, 255, 255, 0.3);
+    border-top: 1px solid white;
 }
 
 .footer__grid--tem p{
 	font-family: Montserrat;
-    font-size: 16px;
+    font-size: 18px;
 	font-weight: 300;
-	padding: 10px;
+	padding: 10px 0;
 }
 .footer__grid--tem{
 	display: flex;
     flex-direction: column;
-	justify-content: center;
+	/*justify-content: center;*/
 
 }
 .btn-w{
@@ -1028,3 +1036,13 @@ textarea.form-control {
 .p-bottom-0{
 	padding-bottom: 0 !important;
 }
+.title-padding-menu{
+	padding-bottom: 20px
+}
+.title-mayus{
+	    padding-top: 20px;
+	text-transform: uppercase; }
+
+	.footer-menu{
+		    padding-left: 25px;
+	}
