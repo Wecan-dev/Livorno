@@ -9,7 +9,7 @@
     padding-left: 0rem;
     overflow-y: auto;
     visibility: hidden;
-    background: #2a4c6c;
+    background: #245078;
     width: 100%;
     transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
@@ -38,6 +38,10 @@
 @media (min-width: 1440px) and (max-width: 1199px) {}
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+  background-image: unset;
+  background-color: #245078;
+}
   .container-planos-livorno {
     padding: 50px 50px 0;
   }
@@ -156,7 +160,7 @@
 
   .content-form {
 
-    grid-template-columns: 50%;
+    grid-template-columns: 100%;
   }
 
   .main-banner__text p {
@@ -198,6 +202,10 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .navbar {
+  background-image: unset;
+  background-color: #245078;
+}
   .btn-form{
     margin-top: 10px;
   }
@@ -418,32 +426,6 @@ section {
     font-size: 12px !important;
    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
