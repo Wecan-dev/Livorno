@@ -19,16 +19,19 @@
 </head>
 
 <body>
-	<header>
+<div class="padd-top" id="nav">
+  <header>
 		<nav class="navbar navbar-expand-md fixed-top navbar-fixed-js" id="nav">
 			<div class="container">
 				<div class="main-brand">
 					<a class="navbar-brand" href="index.html">
 						<img id="iso" src="assets/img/logo-header.png" alt="" />
 					</a>
-					<button class="navbar-toggler p-0 border-0" data-toggle="offcanvas" type="button">
-						<span class="navbar-toggler-icon fa fa-bars"></span>
-					</button>
+					<button class="navbar-toggler p-2 border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
 				</div>
 				<div class="navbar-collapse offcanvas-collapse">
 					<ul class="navbar-nav m-auto">
@@ -58,10 +61,10 @@
 			</div>
 			<div class="social-icons">
 				<li class="nav-item ">
-					<a class="nav-link" href="https://www.facebook.com/nivelpropiedadraiz"><img src="assets/img/iconos/fb_2.png" alt=""></a>
+					<a class="nav-link" target="_blank" href="https://www.facebook.com/nivelpropiedadraiz"><img src="assets/img/iconos/fb_2.png" alt=""></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://www.instagram.com/nivelpropiedadraiz"><img src="assets/img/iconos/instagram_2.png" alt=""></a>
+					<a class="nav-link" target="_blank" href="https://www.instagram.com/nivelpropiedadraiz"><img src="assets/img/iconos/instagram_2.png" alt=""></a>
 				</li>
 			</div>
 		</nav>
@@ -145,7 +148,7 @@
 
 							<div class="row form-group mb-0">
 								<div class="col-md-12 mb-3 mb-md-0">
-									<input type="text" id="fname" class="form-control form-control-local" placeholder="Email" />
+									<input type="text" id="fname" class="form-control form-control-local" placeholder="Email*" />
 								</div>
 
 							</div>
@@ -210,7 +213,7 @@
 						<ul>
 							<li>Gimnasio</li>
 							<li>Piscina</li>
-							<li>Terraza</li>
+							<li>Cancha</li>
 						</ul>
 						<span class="number">01</span>
 					</div>
@@ -241,17 +244,15 @@
 
 					<div class="items">
 						<ul>
-							<li><img src="assets/img/icono-zona/icon_11.png" alt="">Unidad cerrada</li>
-							<li><img src="assets/img/icono-zona/icon_12.png" alt="">POrteria y lobby de acceso</li>
-							<li><img src="assets/img/icono-zona/icon_11.png" alt="">Salón social y Gimnasio</li>
-							<li><img src="assets/img/icono-zona/icon_13.png" alt="">Piscina adultos y niños </li>
-
-
+							<li><img src="assets/img/icono-zona/icon_11.png" alt="">Salón social </li>
+							<li><img src="assets/img/icono-zona/gym.png" alt="">Gimnasio</li>
+              <li><img src="assets/img/icono-zona/icon_13.png" alt="">Piscina adultos y niños </li>
+              <li><img src="assets/img/icono-zona/icon_16.png" alt="">Zonas verdes</li>
 						</ul>
 						<ul>
-							<li><img src="assets/img/icono-zona/icon_14.png" alt="">Salon de juego</li>
-							<li><img src="assets/img/icono-zona/icon_15.png" alt=""> Terraza panoramica</li>
-							<li><img src="assets/img/icono-zona/icon_16.png" alt="">Zonas verdes privadas</li>
+							
+							<li><img src="assets/img/icono-zona/icon_14.png" alt="">Juegos infantiles</li>
+							<li><img src="assets/img/icono-zona/icon_15.png" alt="">Cancha recreativa</li>
 
 
 
@@ -337,7 +338,7 @@
 
 				
 					<div class="main-planos__items">
-						<img src="assets/img/planos.png" alt="">
+						<img src="assets/img/iconos_planos/1.png" alt="">
 					</div>
 					
 			</div>
@@ -349,16 +350,20 @@
 				<div class="main-plan__text">
 					<p>El apartamento típico estará conformado por los siguientes espacios:</p>
 					<ul class="detail-planos">
-						<li><img src="assets/img/iconos_planos/icon_2.png" alt=""> Salón</li>
-						<li><img src="assets/img/iconos_planos/icon_3.png" alt=""> Balcón</li>
+						<li><img src="assets/img/iconos_planos/icon_9.png" alt="">Salón Comedor</li>
+						<li><img src="assets/img/iconos_planos/icon_3.png" alt="">Amplio Balcón</li>
 						<li><img src="assets/img/iconos_planos/icon_4.png" alt=""> Cocina</li>
 						<li><img src="assets/img/iconos_planos/icon_5.png" alt=""> Zona de ropa</li>
-						<li><img src="assets/img/iconos_planos/icon_6.png" alt=""> Baño social</li>
+            <li><img src="assets/img/iconos_planos/icon_7.png" alt=""> Alcoba principal con baño</li>
+            <li><img src="assets/img/iconos_planos/icon_8.png" alt="">2 Alcoba Auxiliares</li>
+            <li><img src="assets/img/iconos_planos/icon_6.png" alt=""> Baño social</li>
+						<!-- <li><img src="assets/img/iconos_planos/icon_2.png" alt=""> Salón</li> -->
+						
+						<!-- <li><img src="assets/img/iconos_planos/icon_10.png" alt=""> Estudio / alcoba 3</li> -->
+						
+              <!-- <li><img src="assets/img/iconos_planos/icon_2.png" alt=""> Salón</li>
 						<li><img src="assets/img/iconos_planos/icon_10.png" alt=""> Estudio / alcoba 3</li>
-						<li><img src="assets/img/iconos_planos/icon_9.png" alt=""> Comedor</li>
-						<li><img src="assets/img/iconos_planos/icon_8.png" alt=""> Alcoba 2</li>
-						<li><img src="assets/img/iconos_planos/icon_7.png" alt=""> Alcoba principal con baño privado y
-							vestier</li>
+							vestier</li> -->
 					</ul>
 					<span class="number number-2 ">03</span>
 				</div>
@@ -369,13 +374,13 @@
 			<div class="main-plan row">
 			<div class="col-md-6 centeres">
 				<div class="arro">
-					<span>62 m2</span>
 					<span>55 m2</span>
+					<span>62 m2</span>
 				</div>
 
 				
 					<div class="main-planos__items">
-						<img src="assets/img/planos.png" alt="">
+						<img src="assets/img/iconos_planos/2.png" alt="">
 					</div>
 				
 			</div>
@@ -387,16 +392,15 @@
 				<div class="main-plan__text">
 					<p>El apartamento típico estará conformado por los siguientes espacios:</p>
 					<ul class="detail-planos">
-						<li><img src="assets/img/iconos_planos/icon_2.png" alt=""> Salón</li>
-						<li><img src="assets/img/iconos_planos/icon_3.png" alt=""> Balcón</li>
+            <li><img src="assets/img/iconos_planos/icon_9.png" alt="">Salón Comedor</li>
+						<li><img src="assets/img/iconos_planos/icon_3.png" alt="">Amplio Balcón</li>
 						<li><img src="assets/img/iconos_planos/icon_4.png" alt=""> Cocina</li>
 						<li><img src="assets/img/iconos_planos/icon_5.png" alt=""> Zona de ropa</li>
-						<li><img src="assets/img/iconos_planos/icon_6.png" alt=""> Baño social</li>
-						<li><img src="assets/img/iconos_planos/icon_10.png" alt=""> Estudio / alcoba 3</li>
-						<li><img src="assets/img/iconos_planos/icon_9.png" alt=""> Comedor</li>
-						<li><img src="assets/img/iconos_planos/icon_8.png" alt=""> Alcoba 2</li>
-						<li><img src="assets/img/iconos_planos/icon_7.png" alt=""> Alcoba principal con baño privado y
-							vestier</li>
+						<li><img src="assets/img/iconos_planos/icon_7.png" alt=""> Alcoba principal con baño </li>
+              <li><img src="assets/img/iconos_planos/icon_8.png" alt=""> Alcoba Auxiliar</li>
+              <li><img src="assets/img/iconos_planos/icon_6.png" alt=""> Baño social</li>
+
+						
 					</ul>
 					<span class="number number-2 ">03</span>
 				</div>
@@ -419,80 +423,80 @@
 
 				<div class="galery-items">
 
-					<a href="#">
+					
 						<div class="main-galery-items__card">
 							<div class="main-galery-items__img"
 								style="background:url('assets/img/image_7.png')">
 							</div>
 						</div>
-					</a>
+				
 
 				</div>
 
 				<div class="galery-items">
 
-					<a href="#">
+					
 						<div class="main-galery-items__card">
 							<div class="main-galery-items__img"
 								style="background:url('assets/img/image_5.png')">
 							</div>
 						</div>
-					</a>
+				
 
 				</div>
 				<div class="galery-items">
 
-					<a href="#">
+					
 						<div class="main-galery-items__card">
 							<div class="main-galery-items__img"
 								style="background:url('assets/img/image_6.png')">
 							</div>
 						</div>
-					</a>
+				
 
 				</div>
 				<div class="galery-items">
 
-					<a href="#">
+					
 						<div class="main-galery-items__card">
 							<div class="main-galery-items__img"
 								style="background:url('assets/img/image_5.png')">
 							</div>
 						</div>
-					</a>
+				
 
 				</div>
 				<div class="galery-items">
 
-					<a href="#">
+					
 						<div class="main-galery-items__card">
 							<div class="main-galery-items__img"
 								style="background:url('assets/img/image_6.png')">
 							</div>
 						</div>
-					</a>
+				
 
 				</div>
 				<div class="galery-items">
 
-					<a href="#">
+					
 						<div class="main-galery-items__card">
 							<div class="main-galery-items__img"
 								style="background:url('assets/img/image_7.png')">
 							</div>
 						</div>
-					</a>
+				
 
 				</div>
 				<div class="galery-items">
 
-					<a href="#">
+					
 						<div class="main-galery-items__card">
 							<div class="main-galery-items__img"
 								style="background:url('assets/img/image_5.png')">
 							</div>
 						</div>
-					</a>
+				
 				</div>
 			</div>
 		</div>
@@ -540,7 +544,7 @@
 				</div>
 				</sectio>
 			</div>
-
+planos
 
 		</div> -->
 	</section>
@@ -624,7 +628,7 @@
 							</div>
 							<div class="row form-group">
 								<div class="col-md-12 ">
-									<input type="submit" value="Enviar " class="btn btn-black btn-form btn-form--w" />
+									<button class="btn btn-black btn-form btn-w">Enviar </button>
 								</div>
 							</div>
 
@@ -651,8 +655,7 @@
 			<div class="footer__grid--tem ">
 				<img src="assets/img/logo.png" alt="">
 
-				<p>Ubicado en el municipio de Sabaneta, Antioquia, sector Loma de San José, zona de alta valorización en
-					una reserva natural que te entregará toda la tranquilidad que necesitas.
+				<p>Espacios diseñados para entregarte lo mejor, una conexión con la naturaleza y una ubicación única cerca a todo lo que necesitas. 
 				</p>
 				<ul>
 					<li><a href="https://www.facebook.com/nivelpropiedadraiz"><img src="assets/img/iconos/fb.png" alt=""></a></li>
@@ -689,7 +692,7 @@
 					<div>
 						<h3>Teléfono</h3>
 						<li>
-							<a href="tel:+575202714<">
+							<a href="tel:+575202714">
 								+ 57 520 27 14</a>
 						</li>
 					</div>
@@ -721,6 +724,7 @@
 	<script src="assets/js/slick.min.js"></script>
 	<script src="assets/js/setting-slick.js"></script>
 	<script src="assets/js/main.js"></script>
+</div>
 
 
 	<script>
