@@ -314,7 +314,7 @@ padding-right: 70px;
 }
 
 .btn-general {
-	border: 1px solid #000;
+	border: 1px solid #979797;
 	background: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -324,8 +324,16 @@ padding-right: 70px;
 
 	font-family: Montserrat;
 	font-size: 11px;
+	transition: 0.3s ease-in-out;
 	font-weight: 500;
 }
+.btn-general:hover {
+	transition: 0.3s ease-in-out;
+	color: #fff;
+	background-color: #113759;
+	border: 1px solid #113759;
+}
+
 
 
 .main-zone h3 {
@@ -502,9 +510,13 @@ padding-right: 70px;
 	width: 400px;
 }
 .container-galery-livorno{
-	padding: 40px 65px;
+	padding: 40px 65px 40px 65px;
 }
 .container-planos-livorno{
+	padding: 50px 85px 0;
+	padding-top: 100px !important;
+}
+.main-ubication__img{
 	padding: 50px 85px 0;
 }
 
@@ -926,6 +938,10 @@ background-repeat: no-repeat!important;
 	width: 30%;
 
 }
+.btn-small{
+	padding: 12px;
+    width: 21% !important;
+}
 
 .custom-control-label {
 	position: relative;
@@ -1061,7 +1077,8 @@ footer {
 .btn-w{
        margin-top: 5px;
     width: auto;
-    padding: 6px 158px 10px;
+	/* padding: 6px 162px 10px; */
+	width: 390px;
 }
 textarea.form-control {
 
