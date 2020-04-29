@@ -449,7 +449,7 @@ section {
   }
 
   .main-banner__img img {
-    height: fit-content;
+    height: 620px;
   }
 
   .main-banner__text p:nth-child(1) {
