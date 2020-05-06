@@ -38,6 +38,21 @@
 @media (min-width: 1440px) and (max-width: 1199px) {}
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .grid-slide-galeria .slick-next {
+    right: -30px;
+  }
+  .next {
+    right: 6rem;
+    
+  }
+  .prev{
+    left: 6rem;
+  }
+
+  #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+    top: -5rem;
+    right: -12rem;
+  }
   .navbar {
   background-image: unset;
   background-color: #245078;
@@ -202,6 +217,25 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .items-slider img{
+    height: 300px;
+  }
+  .next {
+    right: 4rem;
+    
+  }
+  .prev{
+    left: 4rem;
+  }
+
+  #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+    top: -5rem;
+    right: 0rem;
+  }
+  #myModal .modal-content, #myModal1 .modal-content, #myModal2 .modal-content {
+    width: 95%;
+  }
+ 
   .navbar {
   background-image: unset;
   background-color: #245078;
@@ -595,6 +629,18 @@ section {
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .next {
+    right: 10rem;
+    
+  }
+  .prev{
+    left: 10rem;
+  }
+
+  #myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close {
+    top: -5rem;
+    right: -16rem;
+  }
   .btn-w {
     padding: 6px 140px 10px;
   }
@@ -638,5 +684,33 @@ section {
   }
   .footer__grid--tem a {
     font-size: 14px;
+  }
+}
+
+
+@media (min-width: 1440px) and (max-height: 900px){
+ 
+  .main-banner__text {
+    top: 5%;
+  }
+  .main-banner__text p:nth-child(1){
+    font-size: 45px;
+  }
+  .main-banner__text span{
+    font-size: 30px;
+  }
+  .main-banner__text p{
+    font-size: 1.6rem;
+  }
+  .main-zone__item {
+    position: relative;
+    margin-bottom: 110px;
+  }
+  .h-5 {
+    height: 250px;
+  }
+  .main-about__item img {
+    width: 100%;
+    height: 75vh;
   }
 }

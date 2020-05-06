@@ -52,14 +52,14 @@
 							<a class="nav-link " href="#galeria-apto">galería apartamento</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#ubicacion">UBICACIÓN</a>
+							<a class="nav-link" href="#formulario">contacto</a>
 						</li>
 					
 					</ul>
 				
 				</div>
 			</div>
-			<div class="social-icons">
+			<div class="social-icons d-none">
 				<li class="nav-item ">
 					<a class="nav-link" target="_blank" href="https://www.facebook.com/nivelpropiedadraiz"><img src="assets/img/iconos/fb_2.png" alt=""></a>
 				</li>
@@ -116,27 +116,8 @@
 					</div>
 				</div>
 			</div>
-					<div class="main-banner__items">
-				<div class="main-banner">
-					<div class="main-banner__img">
-						<img src="assets/img/3.jpg" alt="">
-					</div>
-					<div class="main-banner__text">
-						<p>Livorno <br>APARTAMENTOS</p>
-						<hr>
-						<span>Ubicación</span>
-						<p>LOMA DE SAN JOSE, <br> SABANETA</p>
-						<span>Área </span>
-						<p>55 m² hasta 62 m²</p>
-						<span>Desde </span>
-						<div class="price">
-							<p>$251.913.401<br>
-								<small>Valor impuestos incluido*</small>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
+		
+					
 		</div>
 		<div class="dropdown_aroow">
 		<a href="#acerca">	<img src="assets/img/dropdown.png" alt=""></a>
@@ -232,14 +213,10 @@
 				</div>
 				<!--zonas -->
 				<div class="main-zone">
-					<h3>Zonas comunes</h3>
+				
 
 					<div class="main-zone__item">
-						<ul>
-							<li>Gimnasio</li>
-							<li>Piscina</li>
-							<li>Cancha</li>
-						</ul>
+					
 						<span class="number">01</span>
 					</div>
 
@@ -364,13 +341,13 @@
 
 				
 					<div class="main-planos__items">
-						<img src="assets/img/iconos_planos/1.png" alt="">
+						<img onclick="openModal();currentSlide(1)"  src="assets/img/iconos_planos/1.png" alt="">
 					</div>
 					
 			</div>
 			<div class="col-md-6">
 				<div class="title-general">
-					<h3>PLANOS DEL <span>PROYECTO</span></h3>
+					<h3>detalles del <span>PROYECTO</span></h3>
 				</div>
 
 				<div class="main-plan__text">
@@ -406,13 +383,13 @@
 
 				
 					<div class="main-planos__items">
-						<img src="assets/img/iconos_planos/2.png" alt="">
+						<img onclick="openModal();currentSlide(1)"  src="assets/img/iconos_planos/2.png" alt="">
 					</div>
 				
 			</div>
 			<div class="col-md-6">
 				<div class="title-general">
-					<h3>PLANOS DEL <span>PROYECTO</span></h3>
+					<h3>detalles del <span>PROYECTO</span></h3>
 				</div>
 
 				<div class="main-plan__text">
@@ -437,6 +414,43 @@
 	</section>
 
 
+
+
+	<div id="myModal" class="modal">
+
+
+		<div class="modal-content">
+			<button aria-label='Close' class='close' data-dismiss='modal' type='button' onclick="closeModal()">
+				<span aria-hidden='true' class='fa fa-close'></span>
+			</button>
+
+			<div class="mySlides">
+				<!-- <div class="numbertext">1 / 4</div> -->
+				<img src="assets/img/iconos_planos/1.png" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<!-- <div class="numbertext">2 / 4</div> -->
+				<img src="assets/img/iconos_planos/2.png" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+	
+
+		
+
+
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+</div>
+</div>
+</div>
+
+
 	<!-- galey apa -->
 	<section id="galeria-apto">
 
@@ -458,7 +472,7 @@
           
                     
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(1)" class="main-galery-items__img"
                           style="background:url('assets/img/image_7.png')">
                         </div>
                       </div>
@@ -470,7 +484,7 @@
           
                     
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(2)" class="main-galery-items__img"
                           style="background:url('assets/img/image_5.png')">
                         </div>
                       </div>
@@ -479,35 +493,35 @@
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(3)" class="main-galery-items__img"
                           style="background:url('assets/img/image_6.png')">
                         </div>
                       </div>
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(4)" class="main-galery-items__img"
                           style="background:url('assets/img/image_5.png')">
                         </div>
                       </div>
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(5)" class="main-galery-items__img"
                           style="background:url('assets/img/image_6.png')">
                         </div>
                       </div>
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(6)" class="main-galery-items__img"
                           style="background:url('assets/img/image_7.png')">
                         </div>
                       </div>
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(7)" class="main-galery-items__img"
                           style="background:url('assets/img/image_5.png')">
                         </div>
                       </div>
@@ -525,7 +539,7 @@
           
                     
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(1)" class="main-galery-items__img"
                           style="background:url('assets/img/image_7.png')">
                         </div>
                       </div>
@@ -537,7 +551,7 @@
           
                     
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(2)" class="main-galery-items__img"
                           style="background:url('assets/img/image_5.png')">
                         </div>
                       </div>
@@ -546,35 +560,35 @@
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(3)" class="main-galery-items__img"
                           style="background:url('assets/img/image_6.png')">
                         </div>
                       </div>
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(4)" class="main-galery-items__img"
                           style="background:url('assets/img/image_5.png')">
                         </div>
                       </div>
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(5)" class="main-galery-items__img"
                           style="background:url('assets/img/image_6.png')">
                         </div>
                       </div>
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(6)" class="main-galery-items__img"
                           style="background:url('assets/img/image_7.png')">
                         </div>
                       </div>
                   </div>
                   <div class="galery-items">
                       <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
+                        <div onclick="openModal1();currentSlide1(7)" class="main-galery-items__img"
                           style="background:url('assets/img/image_5.png')">
                         </div>
                       </div>
@@ -583,75 +597,7 @@
               </div>
   
             </div>
-            <div class="grid-slide grid-slide__galeria">
-              <div class="grid-row">
-  
-                <div class="masonry-with-columns">
-  
-                  <div class="galery-items">
-          
-                    
-                      <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
-                          style="background:url('assets/img/image_7.png')">
-                        </div>
-                      </div>
-                  
-          
-                  </div>
-          
-                  <div class="galery-items">
-          
-                    
-                      <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
-                          style="background:url('assets/img/image_5.png')">
-                        </div>
-                      </div>
-                  
-          
-                  </div>
-                  <div class="galery-items">
-                      <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
-                          style="background:url('assets/img/image_6.png')">
-                        </div>
-                      </div>
-                  </div>
-                  <div class="galery-items">
-                      <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
-                          style="background:url('assets/img/image_5.png')">
-                        </div>
-                      </div>
-                  </div>
-                  <div class="galery-items">
-                      <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
-                          style="background:url('assets/img/image_6.png')">
-                        </div>
-                      </div>
-                  </div>
-                  <div class="galery-items">
-                      <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
-                          style="background:url('assets/img/image_7.png')">
-                        </div>
-                      </div>
-                  </div>
-                  <div class="galery-items">
-                      <div class="main-galery-items__card">
-                        <div class="main-galery-items__img"
-                          style="background:url('assets/img/image_5.png')">
-                        </div>
-                      </div>
-                  </div>
-                </div>
-  
-  
-              </div>
-  
-            </div>
+           
   
   
             <div class="barra-progress" style="margin-top: 20px;">
@@ -666,74 +612,103 @@
         </div>
       </div>
 
-			<!-- <div class="masonry-with-columns">
+		
+		</div>
+		</div>
+	</section>
 
-				<div class="galery-items">
 
-					
-						<div class="main-galery-items__card">
-							<div class="main-galery-items__img"
-								style="background:url('assets/img/image_7.png')">
-							</div>
-						</div>
-				
+<!--Modal galeria-->
+<div id="myModal1" class="modal">
 
-				</div>
 
-				<div class="galery-items">
+	<div class="modal-content">
+		<button aria-label='Close' class='close' data-dismiss='modal' type='button' onclick="closeModal1()">
+			<span aria-hidden='true' class='fa fa-close'></span>
+		</button>
 
-					
-						<div class="main-galery-items__card">
-							<div class="main-galery-items__img"
-								style="background:url('assets/img/image_5.png')">
-							</div>
-						</div>
-				
+		<div class="mySlides1">
+			<!-- <div class="numbertext">1 / 4</div> -->
+			<img src="assets/img/image_7.png" style="width:100%">
+		</div>
 
-				</div>
-				<div class="galery-items">
-						<div class="main-galery-items__card">
-							<div class="main-galery-items__img"
-								style="background:url('assets/img/image_6.png')">
-							</div>
-						</div>
-				</div>
-				<div class="galery-items">
-						<div class="main-galery-items__card">
-							<div class="main-galery-items__img"
-								style="background:url('assets/img/image_5.png')">
-							</div>
-						</div>
-				</div>
-				<div class="galery-items">
-						<div class="main-galery-items__card">
-							<div class="main-galery-items__img"
-								style="background:url('assets/img/image_6.png')">
-							</div>
-						</div>
-				</div>
-				<div class="galery-items">
-						<div class="main-galery-items__card">
-							<div class="main-galery-items__img"
-								style="background:url('assets/img/image_7.png')">
-							</div>
-						</div>
-				</div>
-				<div class="galery-items">
-						<div class="main-galery-items__card">
-							<div class="main-galery-items__img"
-								style="background:url('assets/img/image_5.png')">
-							</div>
-						</div>
-				</div>
-			</div> -->
+		<div class="mySlides1">
+			<!-- <div class="numbertext">2 / 4</div> -->
+			<img src="assets/img/image_5.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">3 / 4</div> -->
+			<img src="assets/img/image_6.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">1 / 4</div> -->
+			<img src="assets/img/image_5.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">2 / 4</div> -->
+			<img src="assets/img/image_6.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">3 / 4</div> -->
+			<img src="assets/img/image_7.png" style="width:100%">
+		</div>
+		<div class="mySlides1">
+			<!-- <div class="numbertext">1 / 4</div> -->
+			<img src="assets/img/image_5.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">2 / 4</div> -->
+			<img src="assets/img/image_7.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">3 / 4</div> -->
+			<img src="assets/img/image_5.png" style="width:100%">
+		</div>
+		<div class="mySlides1">
+			<!-- <div class="numbertext">1 / 4</div> -->
+			<img src="assets/img/image_6.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">2 / 4</div> -->
+			<img src="assets/img/image_5.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">3 / 4</div> -->
+			<img src="assets/img/image_6.png" style="width:100%">
+		</div>
+		<div class="mySlides1">
+			<!-- <div class="numbertext">1 / 4</div> -->
+			<img src="assets/img/image_7.png" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<!-- <div class="numbertext">2 / 4</div> -->
+			<img src="assets/img/image_5.png" style="width:100%">
 		</div>
 
 		
 
+	
 
-		</div>
-	</section>
+
+
+		<a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides1(1)">&#10095;</a>
+
+
+
+</div>
+</div>
+
+
 	<!-- ubicacion -->
 	<section id="ubicacion" class="container-ubicacion">
 

@@ -45,8 +45,8 @@ $('.main-planos__content').slick({
   slidesToScroll: 1,
   dots: true,
   arrows: true,
-  // fade: true,
-  // cssEase: "linear",
+  fade: true,
+  cssEase: "linear",
   arrows: false,
   responsive: [{
     breakpoint: 1200,
