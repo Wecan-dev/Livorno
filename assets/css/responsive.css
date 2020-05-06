@@ -19,27 +19,99 @@
   .offcanvas-collapse.open {
     left: 0;
     visibility: visible;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-left: 25px;
+  }
+  .navbar-nav{
+    display: flex;
+    flex-direction: column !important;
+    color: black;
+    margin: 0;
+    margin: 0 !important;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  .main-banner__img img {
-    height: 100vh;
-  }
-  .main-contact {
-    background-size: cover;
-  
-}
-}
 
 @media (min-width: 1440px) and (max-width: 1199px) {}
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .container-planos-livorno {
+    padding: 50px 50px 0;
+  }
+  .title-general-bg {
+    padding: 50px 30px;
+  } 
+  .main-about {
+    padding: 0 50px;
+  }
+  .acerca-proyectos {
+    padding-top: 70px;
+  }
+  .main-about__item p {
+    font-size: 15px;
+  }
+  .main-zone li {
+    font-size: 12px;
+  }
+  .main-zone__item {
+    margin-bottom: 50px;
+  }
+  .content-zone {
+    padding: 50px 40px
+  }
+  .grid-slide img {
+    padding: 10px;
+  }
+  .main-plan__text p {
+    font-size: 15px;
+  }
+
+  .main-plan__text ul li {
+    margin-bottom: 6px;
+  }
+  .arro span {
+    margin-left: 50px;
+  }
+  .arro span:nth-child(1)::before {
+    width: 30px;
+  }
+  .ubication__text h3 {
+    font-size: 35px;
+  }
+  .container-ubicacion {
+    padding-bottom: 0px;
+  }
+  .main-contact {
+    padding: 40px 60px;
+  }
+  .main-banner__content{
+    height: 92vh;
+  }
+  .content-form {
+    padding: 30px 40px 31px;
+  }
+  .dropdown_aroow {
+    bottom: 45px;
+}
+  .main-brand{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-expand-md .navbar-toggler{
+    display: block;
+  }
   .content-zone__text li {
     margin: 15px 0px;
     font-family: Montserrat;
     font-size: 11px;
     font-weight: 300;
+}
+.social-icons{
+  display: none;
 }
   .content-zone span::before {
   
@@ -114,9 +186,21 @@
     background-size: auto;
 
   }
+  .footer__grid {
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+
+    text-align: center;
+  }
+  .footer__grid--tem:nth-child(1) {
+    align-items: center;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .btn-form{
+    margin-top: 10px;
+  }
 
   .main-brand{
     width: 100%;
@@ -326,7 +410,8 @@ section {
 }
 
 .form-banner .form-control-local {
-    height: 30px !important;
+  height: 40px !important;
+  margin-bottom: -5px;
 }
 .form-banner .form-control {
 
@@ -522,5 +607,54 @@ section {
   .btn-w {
 
     padding: 5px 100px 5px;
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn-w {
+    padding: 6px 140px 10px;
+  }
+  .navbar-nav .nav-link{
+    font-size: 9px;
+  }
+  .navbar-expand-md .navbar-nav .nav-link{
+    padding-left: 0px;
+  }
+  .main-banner__img img {
+    height: 92vh;
+  }
+  .main-contact {
+    background-size: cover;
+  }
+  .content-form {
+    padding: 30px 35px 31px;
+    grid-template-columns: 30% 60%;
+  }
+  .form__item p {
+    font-size: 1.4rem;
+  }
+  .form__item span {
+    font-size: 1.2rem;
+  }
+  .main-about {
+    padding: 0 60px;
+  }
+  .footer__grid {
+    grid-gap: 0;
+  }
+  .container-ubicacion {
+    padding-bottom: 0px;
+  }
+  .content-zone{
+    padding: 50px 50px;
+  }
+  .footer__grid--tem p {
+    font-family: Montserrat;
+    font-size: 15px;
+  }
+  .footer__grid--tem a {
+    font-size: 14px;
   }
 }
