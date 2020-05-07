@@ -47,7 +47,7 @@ $('.main-planos__content').slick({
   arrows: true,
   fade: true,
   cssEase: "linear",
-  arrows: false,
+
   responsive: [{
     breakpoint: 1200,
     settings: {
@@ -68,10 +68,10 @@ $('.main-planos__content').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       dots: false,
-      autoplay: false,
+      autoplay: true,
       arrows: false,
-      autoplaySpeed: 1000,
-      arrows: true,
+      autoplaySpeed: 3000,
+
     }
   }
   ]
