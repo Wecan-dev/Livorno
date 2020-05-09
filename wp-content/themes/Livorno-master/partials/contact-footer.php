@@ -53,7 +53,7 @@
 
 							<div class="col-md-12 center pl-4 mt-2 mb-2">
 								<input type="checkbox" class="custom-control-input " id="customCheck1" name="example2" />
-								<label class="custom-control-label" for="customCheck1">Acepto <a style="color: white !important; border-bottom: 1px solid white; " target="_blank" href="assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf">politicas y
+								<label class="custom-control-label" for="customCheck1">Acepto <a style="color: white !important; border-bottom: 1px solid white; " target="_blank" href="assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf">políticas y
 									privacidad</a></label>
 							</div>
 							<div class="row form-group">

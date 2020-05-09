@@ -34,7 +34,7 @@
 
 
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-5">
 							<div class="row form-group m-0">
 								<div class="col-md-12 p-0">
 									<textarea name="message" id="message" cols="50"  class="form-control barra-text"
@@ -43,7 +43,7 @@
 							</div>
 							<div class="col-md-12 center pl-4 pt-1 pb-1">
 								<input type="checkbox" class="custom-control-input " id="customCheck" name="example1" />
-								<label class="custom-control-label" for="customCheck">Acepto <a style="color: white !important; border-bottom: 1px solid white; " target="_blank" href="assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf">politicas y
+								<label class="custom-control-label" for="customCheck">Acepto <a style="color: white !important; border-bottom: 1px solid white; " target="_blank" href="assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf">políticas y
 									privacidad<span></span></a></label>
 							</div>
 							<div class="row">
