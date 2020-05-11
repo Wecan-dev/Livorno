@@ -7,7 +7,7 @@
 					<div>
 						<div class="row">
 							<div class="col-md-9 form__item--contact--bg">
-								<div class="main-contact_form">
+								<div class="main-contact_form main-contact_form-f ">
 									<p>quiero recibir información</p>
 								</div>
 								

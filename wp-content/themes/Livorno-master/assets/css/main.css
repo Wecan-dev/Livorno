@@ -549,7 +549,15 @@ body {
 			padding-right: 10px;
 
 		}
-
+		.main-contact_form-f p{
+			margin-bottom: 10px !important;
+			font-family: 'Montserrat' !important;
+			font-size: 35px !important;
+			font-weight: 300;
+			text-transform: uppercase;
+			letter-spacing: 0.1px;
+			color: #ffffff;
+		}
 		.main-contact_form  .custom-control-label::after {
 
 			background: rgba(45, 45, 45, 0.8901960784313725) !important;
@@ -1077,6 +1085,7 @@ body {
 		padding-left: 35px;
 		padding-right: 35px;
 		padding-top: 10px;
+		padding-bottom: 30px;
 	}
 
 	.form-control:focus {
