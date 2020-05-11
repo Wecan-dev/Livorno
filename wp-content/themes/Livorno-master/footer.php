@@ -390,16 +390,12 @@ addEvent(form_to_submit, 'submit', form_submit);
 </div>
 
 
-<<<<<<< HEAD
-	<script>
-		new WOW().init();
-	</script>
-	<?php wp_footer(); ?>
-=======
+
 <script>
 	new WOW().init();
 </script>
->>>>>>> 1014ca5e8f573fd18d7c3a95af31e2264f4df0e2
+<?php wp_footer(); ?>
+
 </body>
 
 </html>

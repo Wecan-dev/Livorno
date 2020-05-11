@@ -35,7 +35,7 @@
 
 							</label>
 							<div class="_field-wrapper form-group">
-								<input  class="form-control " type="text" name="fullname" required placeholder="Nombre y Apellido" />
+								<input  class="form-control " type="text" name="fullname" required placeholder="Nombre y Apellido *" />
 							</div>
 						</div>
 						<div class="_form_element _x48647240 _full_width " >
@@ -74,42 +74,44 @@
 							</div>
 						</div>
 						<div class="_form_element _field4 _full_width " >
-							<div class="_row">
+							<div class="_row" style="display: none;">
 								<label class="_form-label">
 
 								</label>
 							</div>
 							<input data-autofill="false" type="hidden" name="field[4][]" value="~|">
-							<div class="_row _checkbox-radio">
-								<input id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
-								<span>
-									<label for="field_4Acepto" style="color: white;">
-										Acepto <a style="color: white !important; border-bottom: 1px solid white; " target="_blank" href="<?php echo get_template_directory_uri();?>/assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf">politicas y
-											privacidad<span></span></a>
-										</label>
-									</span>
-								</div>
-							</div>
-							<div class="_button-wrapper _full_width">
-								<button id="_form_13_submit" class="_submit btn btn-black btn-form " type="submit">
-									Enviar
-								</button>
-							</div>
-							<div class="_clear-element">
-							</div>
 
-							<div class="_form-thank-you" style="display:none;">
+							<div class="_row _checkbox-radio" style="    margin-bottom: 4px;
+							margin-top: 5px;">
+							<input id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
+							<span>
+								<label for="field_4Acepto" style="color: white;">
+									Acepto <a style="color: white !important; border-bottom: 1px solid white; " target="_blank" href="<?php echo get_template_directory_uri();?>/assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf">politicas y
+										privacidad<span></span></a>
+									</label>
+								</span>
 							</div>
-							<div class="_form-branding" style="display: none;">
-								<div class="_marketing-by">
-									Marketing por
-								</div>
-								<a href="http://www.activecampaign.com" class="_logo"></a>
-							</div>
-
 						</div>
+						<div class="_button-wrapper _full_width">
+							<button id="_form_13_submit" class="_submit btn btn-black btn-form " type="submit">
+								Enviar
+							</button>
+						</div>
+						<div class="_clear-element">
+						</div>
+
+						<div class="_form-thank-you" style="display:none;">
+						</div>
+						<div class="_form-branding" style="display: none;">
+							<div class="_marketing-by">
+								Marketing por
+							</div>
+							<a href="http://www.activecampaign.com" class="_logo"></a>
+						</div>
+
 					</div>
-				</form>
+				</div>
+			</form>
 
 
 

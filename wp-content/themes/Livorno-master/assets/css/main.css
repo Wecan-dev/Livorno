@@ -549,6 +549,10 @@ body {
 			padding-right: 10px;
 
 		}
+
+		#contacto .form-group{
+			margin-bottom: 0 !important;
+		}
 		.main-contact_form-f p{
 			margin-bottom: 10px !important;
 			font-family: 'Montserrat' !important;
