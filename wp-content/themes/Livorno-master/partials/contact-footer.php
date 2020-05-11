@@ -101,7 +101,7 @@
 											<div class="_clear-element">
 											</div>
 										</div>
-										<div class="_form-thank-you" style="display:none;">
+										<div class="_form-thank-you" style="display:none; color: white; font-weight: 600;" >
 										</div>
 										<div class="_form-branding" style="display: none;">
 											<div class="_marketing-by">
