@@ -1394,7 +1394,7 @@ body {
 		.content-form {
 			background: #245078;
 			color: #fff;
-			padding: 32px 0;
+			padding: 0 32px 25px;
 			display: grid;
 			grid-template-columns: 34% 65%;
 		}
