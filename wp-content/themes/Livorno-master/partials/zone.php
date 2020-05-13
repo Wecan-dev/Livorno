@@ -1,4 +1,5 @@
 	<!-- Zonas comunes -->
+
 	<section id="zonas-comunes">
 		<div class="content-zone">
 
@@ -10,20 +11,19 @@
 			</div>
 			<div class="content-zone__item">
 				<div class="content-zone__text">
-					<p>Dentro del desarrollo urbanistico ,la unidad residencial contará con los siguientes servicios
-						colectivos</p>
+					<p><?php the_field('subtitulo'); ?></p>
 
 					<div class="items">
 						<ul>
-							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_11.png" alt="">Salón social </li>
-							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/gym.png" alt="">Gimnasio</li>
-              <li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_13.png" alt="">Piscina adultos y niños </li>
-              <li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_16.png" alt="">Zonas verdes</li>
+							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_11.png" alt=""><?php the_field('salon_social'); ?> </li>
+							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/gym.png" alt=""><?php the_field('gimnasio'); ?></li>
+							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_13.png" alt=""><?php the_field('piscina'); ?> </li>
+							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_16.png" alt=""><?php the_field('zonas_verdes'); ?></li>
 						</ul>
 						<ul>
 							
-							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_14.png" alt="">Juegos infantiles</li>
-							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_15.png" alt="">Cancha recreativa</li>
+							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_14.png" alt=""><?php the_field('juegos_infantiles'); ?></li>
+							<li><img src="<?php echo get_template_directory_uri();?>/assets/img/icono-zona/icon_15.png" alt=""><?php the_field('cancha_recreativa'); ?></li>
 
 
 
@@ -34,7 +34,7 @@
 				</div>
 			</div>
 
-      <div id="galeria-exterior"></div>
-    </div>
-    
+			<div id="galeria-exterior"></div>
+		</div>
+
 	</section>

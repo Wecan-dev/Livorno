@@ -41,7 +41,7 @@
 												
 											</label>
 											<div class="_field-wrapper form-group">
-												<input class="form-control " type="text" name="fullname" placeholder="Nombreombre y Apellido" />
+												<input class="form-control " type="text" name="fullname" placeholder="Nombre y Apellido" />
 											</div>
 										</div>
 										<div class="_form_element _x48647240 _full_width " >
@@ -84,9 +84,9 @@
 											</div>
 											<input data-autofill="false" type="hidden" name="field[4][]" value="~|">
 											<div class="_row _checkbox-radio">
-												<input id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
+												<input id="field_4Acepto1" required type="checkbox" name="field[4][]" value="Acepto"   >
 												<span>
-													<label for="field_4Acepto"style="color: white;">
+													<label for="field_4Acepto1"style="color: white;">
 														Acepto <a style="color: white !important; border-bottom: 1px solid white; " target="_blank" href="<?php echo get_template_directory_uri();?>/assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf">politicas y
 															privacidad<span></span></a>
 														</label>

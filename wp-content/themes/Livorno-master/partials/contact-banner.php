@@ -83,7 +83,7 @@
 
 							<div class="_row _checkbox-radio" style="    margin-bottom: 4px;
 							margin-top: 5px;">
-							<input id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
+							<input id="field_4Acepto" required type="checkbox" name="field[4][]" value="Acepto"   >
 							<span>
 								<label for="field_4Acepto" style="color: white;">
 									Acepto <a style="color: white !important; border-bottom: 1px solid white; " target="_blank" href="<?php echo get_template_directory_uri();?>/assets/img/MANUAL_DE_POLITICAS_PROMOTORA.pdf">politicas y
@@ -97,20 +97,22 @@
 								Enviar
 							</button>
 						</div>
-						<div class="_clear-element">
-						</div>
-
-						<div class="_form-thank-you" style="display:none;">
-						</div>
-						<div class="_form-branding" style="display: none;">
-							<div class="_marketing-by">
-								Marketing por
-							</div>
-							<a href="http://www.activecampaign.com" class="_logo"></a>
-						</div>
-
 					</div>
 				</div>
+				<div class="_clear-element">
+				</div>
+
+				<div class="_form-thank-you" style="display:none; color: white; font-weight: 600;">
+				</div>
+				<div class="_form-branding" style="display: none;">
+					<div class="_marketing-by">
+						Marketing por
+					</div>
+					<a href="http://www.activecampaign.com" class="_logo"></a>
+				</div>
+
+
+				
 			</form>
 
 

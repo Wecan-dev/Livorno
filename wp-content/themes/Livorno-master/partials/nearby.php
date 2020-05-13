@@ -1,8 +1,9 @@
 <!-- Acerca de.... -->
-<section id="acerca" class="acerca-proyectos">
+<?php if(have_posts()): the_post(); ?>
+	<section id="acerca" class="acerca-proyectos">
 		<div class="main-about">
 			<div class="main-about__item">
-				<img src="<?php echo get_template_directory_uri();?>/assets/img/about.jpg" alt="">
+				<img src="<?php the_field('imagen_acerca_de'); ?>" alt="">
 			</div>
 			<div class="main-about__item">
 				<div class="title-general">
@@ -10,23 +11,15 @@
 				</div>
 
 				<div class="h-5">
-					<p>
-						La ciudadela Toscana se encuentra ubicada en la Loma de San José, con fácil acceso, cercano a
-						Centro
-						Comercial Aves Marías y el Mall Zaratoga, Universidad Ceipa y Hospital Venancio Díaz y un
-						entorno
-						inigualable con una gran reserva natural. <br><br> La primera etapa de esta ciudadela será
-						Livorno
-						de la Toscana con apartamentos entre 55 y 62 mts2. 2 torres de 23 y 24 pisos
-						1 torre de parqueaderos.
-					</p>
+					<?php the_field('test'); ?>
+					
 				</div>
 				<!--zonas -->
 				<div class="main-zone">
-				
+
 
 					<div class="main-zone__item">
-					
+
 						<span class="number">01</span>
 					</div>
 
@@ -38,3 +31,4 @@
 
 
 	</section>
+	<?php endif; ?>
